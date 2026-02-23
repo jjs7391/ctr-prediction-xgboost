@@ -50,6 +50,7 @@ This demonstrates the importance of selecting models appropriate for structured 
 
 실행방법
 data/train.parquet
+
 data/test.parquet
 
 pip install -r requirements.txt

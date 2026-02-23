@@ -47,3 +47,15 @@ Given the nature of structured tabular features, we hypothesized that tree-based
 
 Replacing the LSTM baseline with XGBoost significantly improved performance (+0.07~0.08 AUC).
 This demonstrates the importance of selecting models appropriate for structured tabular data.
+
+실행방법
+data/train.parquet
+data/test.parquet
+
+pip install -r requirements.txt
+
+# CV AUC 확인
+python -m src.train_xgb_cv
+
+# 제출파일 생성(outputs/submission_xgb.csv)
+python -m src.train_xgb_full

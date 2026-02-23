@@ -49,6 +49,7 @@ Replacing the LSTM baseline with XGBoost significantly improved performance (+0.
 This demonstrates the importance of selecting models appropriate for structured tabular data.
 
 실행방법
+
 data/train.parquet
 
 data/test.parquet
